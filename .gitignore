@@ -1,0 +1,20 @@
+# открыли файл .gitignore в редакторе nano
+$ nano .gitignore
+
+# игнорировать файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# игнорировать Virtual environments
+venv/
+.env
+
+# игнорировать все файлы с расширением .doc
+*.doc
+
+# игнорировать настройки IDE
+.idea/
+.vscode/
